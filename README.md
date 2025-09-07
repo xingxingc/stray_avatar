@@ -1,9 +1,9 @@
 # 潦草头像馆：让你的头像不再 “撞衫”
 潦草头像馆支持随机生成多种风格的头像图片，让你的头像不再“撞衫”。
 
-stray_avatar是潦草头像的开源代码项目，包括：  
+stray_avatar是潦草头像的开源代码项目，包括两个部分：  
 1. 微信小程序端（avatar_generator）  
-2. 服务端（avatar_generator_server）两个部分。
+2. 服务端（avatar_generator_server）
 
 **技术栈：**  
 uniapp开发实现的微信小程序  
