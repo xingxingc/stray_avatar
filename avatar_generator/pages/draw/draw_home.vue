@@ -6,7 +6,6 @@
 				<view class="space"/>
 				<image src="/static/image/draw/draw_double.png" class="item" mode="widthFix" @click="doublePage"/>
 			</view>
-			<ad-custom unit-id="adunit-865238298f61239b"></ad-custom>
 		</view>
 	</common-page>
 </template>

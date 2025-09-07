@@ -12,8 +12,6 @@ $RECYCLE.BIN/
 
 # Node.js
 node_modules/
-
-uni_modules/
 unpackage/
 
 # Logs

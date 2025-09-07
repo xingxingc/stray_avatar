@@ -14,7 +14,6 @@
 					deactive-color="#181818" 
 					:active="step.length-1" />
 			</view>
-			<ad-custom style="margin-top:15px; width: 96%;" unit-id="adunit-78d65f3c5963ba49"></ad-custom>
 		</view>
 		<view v-if="isShowGen" class="gen_modal modal">
 			<view class="panel gen_content">

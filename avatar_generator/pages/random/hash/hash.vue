@@ -45,7 +45,6 @@
 			<button @click="randomAvatar()">随机生成</button>
 			<button @click="saveAvatar">保存相册</button>
 			<view class="spacer"></view>
-			<ad-custom style="width: 100%;" unit-id="adunit-e87174659c5eab6e"></ad-custom>
 		</view>
 	</common-page>
 	<t-color-picker ref="shapeColorPicker" :color="shapeColor" @confirm="confirmShapeColor" @close="closePicker"></t-color-picker>

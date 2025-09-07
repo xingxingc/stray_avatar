@@ -10,7 +10,6 @@
 			<button @click="initialization()" class="button">随机生成</button>
 			<button @click="save()" class="button">保存相册</button>
 			<view class="spacer"></view>
-			<ad-custom style="width: 100%;" unit-id="adunit-e1e62c7eb7e6c2f3"></ad-custom>
 		</div>
 	</common-page>
 	<t-color-picker ref="colorPicker" :color="bgColor" @confirm="confirmColor"></t-color-picker>

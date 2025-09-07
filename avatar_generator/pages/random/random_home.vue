@@ -16,7 +16,6 @@
 				<view class="flex"></view>
 				<image src="/static/image/random/arrow_right.png" class="right"></image>
 			</view>
-			<ad-custom style="width: 100%;" unit-id="adunit-df29b9a079226249"></ad-custom>
 		</view>
 	</common-page>
 </template>

@@ -13,7 +13,6 @@
 			<button @click="generateFace()">随机生成</button>
 			<button @click="save()">保存相册</button>
 			<view class="spacer" />
-			<ad-custom style="width: 100%;" unit-id="adunit-9245deef9b3b1aa5"></ad-custom>
 		</view>
 	</common-page>
 	<t-color-picker ref="colorPicker" :color="bgColor" @confirm="confirmColor" @close="closeColorPicker"></t-color-picker>

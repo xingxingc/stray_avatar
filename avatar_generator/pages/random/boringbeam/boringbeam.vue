@@ -7,7 +7,6 @@
 			<button @click="generateData()">随机生成</button>
 			<button @click="save()">保存相册</button>
 			<view class="spacer"></view>
-			<ad-custom style="width: 100%;" unit-id="adunit-24baec1b0324fc3e"></ad-custom>
 		</view>
 	</common-page>
 </template>
