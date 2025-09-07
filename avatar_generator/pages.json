@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/random/random_home"
+		},
+		{
+			"path" : "pages/draw/draw_home"
+		},
+		{
+			"path" : "pages/setting/setting"
+		},
+		{
+			"path" : "pages/random/ugly/ugly"
+		},
+		{
+			"path" : "pages/random/duck/duck"
+		},
+		{
+			"path" : "pages/random/cryptopunks/cryptopunks"
+		},
+		{
+			"path" : "pages/random/boringbeam/boringbeam"
+		},
+		{
+			"path" : "pages/random/hash/hash"
+		},
+		{
+			"path" : "pages/draw/drawboard/single/single"
+		},
+		{
+			"path" : "pages/draw/drawboard/double/type"
+		},
+		{
+			"path" : "pages/draw/drawboard/double/room"
+		}
+	],
+	"tabBar": {
+		"color": "#CDCDCD",
+		"selectedColor": "#232323",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/random/random_home",
+				"iconPath": "/static/image/tab_random.png",
+				"selectedIconPath": "/static/image/tab_random_on.png",
+				"text": "随机头像"
+			},
+			{
+				"pagePath": "pages/draw/draw_home",
+				"iconPath": "/static/image/tab_draw.png",
+				"selectedIconPath": "/static/image/tab_draw_on.png",
+				"text": "像素画家"
+			},
+			{
+				"pagePath": "pages/setting/setting",
+				"iconPath": "/static/image/tab_set.png",
+				"selectedIconPath": "/static/image/tab_set_on.png",
+				"text": "设置"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"uniIdRouter": {}
+}
