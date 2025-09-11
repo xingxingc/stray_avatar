@@ -1,1 +1,5 @@
-{}
+{
+  "dependencies": {
+    "jdenticon": "^3.3.0"
+  }
+}

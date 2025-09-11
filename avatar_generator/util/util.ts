@@ -73,7 +73,7 @@ export function postSvgToPng(svgContent, token) {
 				content: '两次保存的时间间隔不能小于5秒',
 				showCancel: false
 			})
-			return
+			return null
 		}
 	}
 

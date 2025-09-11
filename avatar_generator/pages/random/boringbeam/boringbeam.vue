@@ -27,6 +27,7 @@
 	import {
 		checkPermissionAndSaveToPhotosAlbum, postSvgToPng, randomToken, savePngToFile, showTextToast
 	} from '../../../util/util';
+	import { onLoad, onUnload } from '@dcloudio/uni-app'
 
 	const svgImagePath = ref('')
 
@@ -218,8 +219,10 @@
 		uni.showLoading({title: '生成中'})
 		try {
 			const resp = await postSvgToPng(svgString, token)
-			const pngPath = await savePngToFile(resp)
-			checkPermissionAndSaveToPhotosAlbum(pngPath)
+			if (resp != null) {
+				const pngPath = await savePngToFile(resp)
+				checkPermissionAndSaveToPhotosAlbum(pngPath)
+			}
 		} catch (e) {
 			console.error('svgToPng error', e)
 			uni.showModal({
@@ -231,11 +234,12 @@
 		uni.hideLoading()
 	}
 	
-	onMounted(() => {
+	onLoad(() => {
 		generateData()
 	})
 	
-	onUnmounted(() => {})
+	onUnload(() => {
+	})
 </script>
 
 <style lang="scss">

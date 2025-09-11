@@ -21,13 +21,22 @@
 				</view>
 				<view class="h">【开源声明】</view>
 				<view class="c">本项目遵循MIT开源协议。</view>
+				<view v-for="(item,index) in kMyOpenSources" :key="index" class="my-list">
+					<view class="name">
+						<text>• {{ item.target }}</text>
+					</view>
+					<view class="copy" @click="copy(item.link)">
+						<image src="/static/image/copy_link.png" />
+						<text>链接</text>
+					</view>
+				</view>
 			</view>
 		</view>
 	</common-page>
 </template>
 
 <script setup>
-	import { kOpenSourceProjectList } from '../../model/open_source_project'
+	import { kOpenSourceProjectList, kMyOpenSources } from '../../model/open_source_project'
 	
 	function copy(link) {
 		uni.setClipboardData({
@@ -53,7 +62,7 @@
 	@import '../../static/css/base.scss';
 	
 	.list_content {
-		padding: 0 20px;
+		padding: 0 15px;
 		display: flex;
 		flex-direction: column;
 		justify-content: start;
@@ -86,19 +95,9 @@
 			flex-direction: column;
 			align-items: start;
 			font-size: 13px;
-			.h {
-				margin-top: 25px;
-				color: $app-color-black18;
-				font-weight: bold;
-			}
-			.c {
-				margin-top: 10px;
-				color: $app-color-grey77;
-				font-weight: normal;
-			}
 			.list-item {
 				font-size: 13px;
-				margin-top: 10px;
+				margin-top: 6px;
 				.name {
 					font-weight: bold;
 					color: $app-color-black18;
@@ -120,6 +119,40 @@
 							width: 12px;
 							height: 12px;
 						}
+					}
+				}
+			}
+			.h {
+				margin-top: 25px;
+				color: $app-color-black18;
+				font-weight: bold;
+			}
+			.c {
+				margin-top: 10px;
+				color: $app-color-grey77;
+				font-weight: normal;
+			}
+			.my-list {
+				font-size: 13px;
+				margin-top: 6px;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				.name {
+					font-weight: bold;
+					color: $app-color-black18;
+					margin-bottom: 2px;
+				}
+				.copy {
+					color: #1296db;
+					font-size: 12px;
+					display: flex;
+					align-items: center;
+					padding: 5px;
+					image {
+						margin-right: 2px;
+						width: 12px;
+						height: 12px;
 					}
 				}
 			}

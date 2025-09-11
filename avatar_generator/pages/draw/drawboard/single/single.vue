@@ -147,9 +147,6 @@
 		}
 		uni.hideLoading()
 	}
-	
-	onMounted(() => {})
-	onUnmounted(() => {})
 </script>
 
 <style scoped lang="scss">

@@ -32,6 +32,9 @@
 		},
 		{
 			"path" : "pages/draw/drawboard/double/room"
+		},
+		{
+			"path" : "pages/random/jdenticon/jdenticon"
 		}
 	],
 	"tabBar": {

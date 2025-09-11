@@ -797,8 +797,10 @@
 				uni.showLoading({title: '生成中'})
 				try {
 					const resp = await postSvgToPng(this.svgString, this.token)
-					const pngPath = await savePngToFile(resp)
-					checkPermissionAndSaveToPhotosAlbum(pngPath)
+					if (resp != null) {
+						const pngPath = await savePngToFile(resp)
+						checkPermissionAndSaveToPhotosAlbum(pngPath)
+					}
 				} catch (e) {
 					console.error('svgToPng error', e)
 					uni.showModal({
@@ -818,7 +820,7 @@
 			}
 		},
 		onLoad() {
-			this.initialization();
+			this.initialization()
 		},
 		onUnload: () => {
 		}

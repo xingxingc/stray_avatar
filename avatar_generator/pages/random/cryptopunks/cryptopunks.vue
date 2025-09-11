@@ -21,7 +21,9 @@
 <script setup>
 	import { onMounted, onUnmounted, ref } from 'vue'
 	import { checkPermissionAndSaveToPhotosAlbum, showTextToast } from '../../../util/util'
-import { AppModel } from '../../../model/app_model'
+	import { onLoad, onUnload } from '@dcloudio/uni-app'
+
+	const baseUrl = 'https://www.larvalabs.com/public/images/cryptopunks/'
 	
 	var imagePath = ''
 	var downloadedImagePath = ''
@@ -50,7 +52,7 @@ import { AppModel } from '../../../model/app_model'
 		const randomNum = Math.floor(Math.random() * 10000)
 		// 转换为长度为4的字符串，不足4位在前面补0
 		const name = `punk${randomNum.toString().padStart(4, '0')}.png`
-		imagePath = AppModel.punkBaseUrl + name
+		imagePath = baseUrl + name
 		console.log(`>>> imagePath: ${imagePath}`)
 		uni.downloadFile({
 			url: imagePath,
@@ -165,11 +167,12 @@ import { AppModel } from '../../../model/app_model'
 		})
 	}
 	
-	onMounted(() => {
+	onLoad(() => {
 		generateFace()
 	})
 	
-	onUnmounted(() => {})
+	onUnload(() => {
+	})
 </script>
 
 <style lang="scss">

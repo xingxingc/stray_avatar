@@ -6,15 +6,17 @@
 			</view>
 		</template>
 		<view class="list">
-			<view 
-				v-for="(item,index) in data" 
-				:key="index" 
-				class="item"
-				@click="toItemPage(item.path)">
-				<image :src="item.icon" mode="widthFix" class="icon" />
-				<text class="name">{{item.title}}</text>
-				<view class="flex"></view>
-				<image src="/static/image/random/arrow_right.png" class="right"></image>
+			<view class="list-content">
+				<view
+					v-for="(item,index) in data" 
+					:key="index" 
+					class="item"
+					@click="toItemPage(item.path)">
+					<image :src="item.icon" mode="widthFix" class="icon" />
+					<text class="name">{{item.title}}</text>
+					<view class="flex"></view>
+					<image src="/static/image/random/arrow_right.png" class="right"></image>
+				</view>
 			</view>
 		</view>
 	</common-page>
@@ -43,6 +45,11 @@
 			title: '简单微笑',
 			icon: '/static/image/random/random_smile.png',
 			path: '/pages/random/boringbeam/boringbeam'
+		},
+		{
+			title: '字符图形',
+			icon: '/static/image/random/random_jdenticon.png',
+			path: '/pages/random/jdenticon/jdenticon'
 		},
 		{
 			title: '哈希对称',
@@ -92,42 +99,51 @@
 		}
 	}
 	.list {
+		width: 100vw;
+		height: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: start;
 		align-items: center;
-		width: 100vw;
-		.item {
-			height: 160rpx;
-			width: calc(100% - 40rpx);
-			border: 1px solid $app-color-black18;
-			border-radius: 20rpx;
-			margin-bottom: 20rpx;
+		.list-content {
+			flex: 1;
 			display: flex;
-			flex-direction: row;
+			flex-direction: column;
+			justify-content: start;
 			align-items: center;
-			&:first-child {
-				margin-top: 20rpx;
-			}
-			.icon {
-				margin-left: 30rpx;
-				width: 120rpx;
-				height: 120rpx;
+			width: 100vw;
+			overflow-y: scroll;
+			.item {
+				height: 160rpx;
+				width: calc(100% - 40rpx);
+				border: 1px solid $app-color-black18;
 				border-radius: 20rpx;
-			}
-			.name {
-				margin-left: 30rpx;
-				color: $app-color-black18;
-				font-weight: bold;
-				font-size: 36rpx;
-			}
-			.flex {
-				flex: 1;
-			}
-			.right {
-				margin-right: 30rpx;
-				width: 44rpx;
-				height: 44rpx;
+				margin-bottom: 20rpx;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				&:first-child {
+					margin-top: 20rpx;
+				}
+				.icon {
+					margin-left: 26rpx;
+					width: 120rpx;
+					height: 120rpx;
+					border-radius: 20rpx;
+				}
+				.name {
+					margin-left: 30rpx;
+					color: $app-color-black18;
+					font-weight: bold;
+					font-size: 36rpx;
+				}
+				.flex {
+					flex: 1;
+				}
+				.right {
+					margin-right: 30rpx;
+					width: 44rpx;
+					height: 44rpx;
+				}
 			}
 		}
 	}
