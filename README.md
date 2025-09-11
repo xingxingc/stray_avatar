@@ -69,4 +69,6 @@ spring-boot实现的服务端（svg转png）
 2. 客群采集：基于地理位置的商户信息采集工具    
 <img src="./assets/qrcode_kqcj.jpg" width="160px" />
 
+## ☕️请我喝杯咖啡吧～
+<img src="./assets/buy_me_coffee.png" width="160px" />
 
