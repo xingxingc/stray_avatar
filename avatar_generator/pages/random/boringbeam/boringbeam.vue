@@ -237,9 +237,6 @@
 	onLoad(() => {
 		generateData()
 	})
-	
-	onUnload(() => {
-	})
 </script>
 
 <style lang="scss">
@@ -284,6 +281,4 @@
 			flex: 1;
 		}
 	}
-
-	
 </style>

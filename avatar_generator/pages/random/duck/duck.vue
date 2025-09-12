@@ -820,9 +820,7 @@
 			}
 		},
 		onLoad() {
-			this.initialization()
-		},
-		onUnload: () => {
+			this.initialization();
 		}
 	};
 </script>

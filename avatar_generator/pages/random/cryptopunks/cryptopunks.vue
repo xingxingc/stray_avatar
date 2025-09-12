@@ -170,9 +170,6 @@
 	onLoad(() => {
 		generateFace()
 	})
-	
-	onUnload(() => {
-	})
 </script>
 
 <style lang="scss">

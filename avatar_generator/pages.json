@@ -35,6 +35,13 @@
 		},
 		{
 			"path" : "pages/random/jdenticon/jdenticon"
+		},
+		{
+			"path" : "pages/random/silly/silly",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
 		}
 	],
 	"tabBar": {

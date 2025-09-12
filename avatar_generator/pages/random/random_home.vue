@@ -52,10 +52,15 @@
 			path: '/pages/random/jdenticon/jdenticon'
 		},
 		{
+			title: '复古阿呆',
+			icon: '/static/image/random/random_silly.png',
+			path: '/pages/random/silly/silly'
+		},
+		{
 			title: '哈希对称',
 			icon: '/static/image/random/random_hash.png',
 			path: '/pages/random/hash/hash'
-		}
+		},
 	]
 	
 	/// 跳转子页面
@@ -106,14 +111,13 @@
 		align-items: center;
 		.list-content {
 			flex: 1;
-			display: flex;
-			flex-direction: column;
 			justify-content: start;
 			align-items: center;
 			width: 100vw;
 			overflow-y: scroll;
 			.item {
-				height: 160rpx;
+				margin-left: 18rpx;
+				height: 150rpx;
 				width: calc(100% - 40rpx);
 				border: 1px solid $app-color-black18;
 				border-radius: 20rpx;
@@ -126,8 +130,8 @@
 				}
 				.icon {
 					margin-left: 26rpx;
-					width: 120rpx;
-					height: 120rpx;
+					width: 110rpx;
+					height: 110rpx;
 					border-radius: 20rpx;
 				}
 				.name {
@@ -140,9 +144,9 @@
 					flex: 1;
 				}
 				.right {
-					margin-right: 30rpx;
-					width: 44rpx;
-					height: 44rpx;
+					margin-right: 24rpx;
+					width: 40rpx;
+					height: 40rpx;
 				}
 			}
 		}

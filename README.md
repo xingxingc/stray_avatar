@@ -25,8 +25,9 @@ spring-boot实现的服务端（svg转png）
 4. 简单微笑：简约纯粹，用最干净的线条传递好心情  
 5. 哈希对称：生成的像素对称图，每一次随机都是一场视觉惊喜  
 6. 字符图像：根据您输入的字符串，生成一张简单的独一无二的图形
+7. 复古阿呆：随机生成复古风格的简单卡通人物图像
    
-![随机生成](./assets/random.jpg)
+<img src='./assets/random.jpg' alt='随机生成' width="320px" >
 
 ### 像素画家
 如果你想拥有完全独一无二的专属头像，那第二大功能像素画家绝对能满足你！“自己画” 模式让你化身像素艺术家，随心勾勒专属图案，每一笔都是独特心意；而 “一起画” 模式更是情侣专属福利 —— 两台手机通过蓝牙配对，就能共同操控同一个像素画板，你画一笔我补一色，在协作中碰撞出爱的火花，绘制出只属于你们的甜蜜纪念。  
@@ -41,7 +42,7 @@ spring-boot实现的服务端（svg转png）
 6. 画板旋转
 7. 清空画板  
    
-<img src="./assets/draw_self.png" width="160px" />  
+<img src="./assets/draw_self.png" width="320px" />  
 
 **一起画** 
 一起画通过蓝牙连接支持两台手机同时操作同一个画板绘制保存图片。  
@@ -57,6 +58,7 @@ spring-boot实现的服务端（svg转png）
 3. [sweeterio《 pixelpunks 》](https://github.com/sweeterio/pixelpunks)：“朋克像素”里使用的资源参考了该项目
 4. [boringdesigners《 boring-avatars 》](https://github.com/boringdesigners/boring-avatars)：“简单微笑”里的方法参考了该项目
 5. [dmester《 jdenticon 》](https://github.com/dmester/jdenticon)：“字符图形”生成图片的方法基于该项目
+6. [copperdong《 faceGenerator 》](https://github.com/copperdong/faceGenerator)：“复古阿呆”生成图片的方法基于该项目
 
 **【开源声明】**  
 潦草头像馆小程序遵循 MIT 开源协议。

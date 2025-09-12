@@ -155,6 +155,9 @@
 						height: 12px;
 					}
 				}
+				&:last-child {
+					margin-bottom: 20px;
+				}
 			}
 		}
 	}
