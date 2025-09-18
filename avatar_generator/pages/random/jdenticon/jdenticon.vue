@@ -34,6 +34,7 @@
 	import { ref } from 'vue';
 	import { onLoad, onUnload } from '@dcloudio/uni-app'
 
+	let rewardedService = null
 	let lastGenText = null
 	let token = null
 	let svgText = null

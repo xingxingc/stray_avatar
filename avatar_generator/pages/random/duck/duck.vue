@@ -821,6 +821,8 @@
 		},
 		onLoad() {
 			this.initialization();
+		},
+		onUnload: () => {
 		}
 	};
 </script>

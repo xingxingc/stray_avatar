@@ -29,6 +29,7 @@ export const kOpenSourceProjectList = [
 	new OpenSourceProject("boring-avatars", "boringdesigners", "“简单微笑”里的方法参考了该项目", "https://github.com/boringdesigners/boring-avatars"),
 	new OpenSourceProject("jdenticon", "dmester", "“字符图形”生成图片的方法基于该项目", "https://github.com/dmester/jdenticon"),
 	new OpenSourceProject("faceGenerator", "copperdong", "“复古阿呆”生成图片的方法基于该项目", "https://github.com/copperdong/faceGenerator"),
+	new OpenSourceProject("facitars", "mugendi", "“怪诞显眼包”生成图片的方法基于该项目", "https://github.com/mugendi/facitars"),
 ]
 
 export const kMyOpenSources = [

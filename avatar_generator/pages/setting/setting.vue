@@ -7,6 +7,17 @@
 				<text class="desc">潦草头像是一款随机生成用户头像的工具类应用</text>
 			</view>
 			<view class="thrid_part">
+				<view class="h">【开源声明】</view>
+				<view class="c">本项目遵循MIT开源协议。</view>
+				<view v-for="(item,index) in kMyOpenSources" :key="index" class="my-list">
+					<view class="name">
+						<text>• {{ item.target }}</text>
+					</view>
+					<view class="copy" @click="copy(item.link)">
+						<image src="/static/image/copy_link.png" />
+						<text>链接</text>
+					</view>
+				</view>
 				<view class="h">【致谢声明】</view>
 				<view class="c">站在巨人的肩膀上，感恩开源。在本小程序中使用或借鉴了下方列出的开源项目里的功能，在此，向所有开发者致以诚挚的感谢。</view>
 				<view v-for="(item,index) in kOpenSourceProjectList" :key="index" class="list-item">
@@ -17,17 +28,6 @@
 							<image src="/static/image/copy_link.png" />
 							<text>链接</text>
 						</view>
-					</view>
-				</view>
-				<view class="h">【开源声明】</view>
-				<view class="c">本项目遵循MIT开源协议。</view>
-				<view v-for="(item,index) in kMyOpenSources" :key="index" class="my-list">
-					<view class="name">
-						<text>• {{ item.target }}</text>
-					</view>
-					<view class="copy" @click="copy(item.link)">
-						<image src="/static/image/copy_link.png" />
-						<text>链接</text>
 					</view>
 				</view>
 			</view>
@@ -98,6 +98,9 @@
 			.list-item {
 				font-size: 13px;
 				margin-top: 6px;
+				&:last-child {
+					margin-bottom: 20px;
+				}
 				.name {
 					font-weight: bold;
 					color: $app-color-black18;
@@ -154,9 +157,6 @@
 						width: 12px;
 						height: 12px;
 					}
-				}
-				&:last-child {
-					margin-bottom: 20px;
 				}
 			}
 		}

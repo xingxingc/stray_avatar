@@ -42,6 +42,11 @@
 			path: '/pages/random/cryptopunks/cryptopunks'
 		},
 		{
+			title: '怪诞显眼包',
+			icon: '/static/image/random/random_facitars.png',
+			path: '/pages/random/facitars/facitars'
+		},
+		{
 			title: '简单微笑',
 			icon: '/static/image/random/random_smile.png',
 			path: '/pages/random/boringbeam/boringbeam'

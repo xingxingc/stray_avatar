@@ -59,6 +59,7 @@
 	export default {
 		data() {
 			return {
+				rewardedService: null,
 				inputText: '',
 				avatarData: null,
 				generating: false,
@@ -120,6 +121,8 @@
 		},
 		onLoad() {
 			this.randomAvatar(5, 0, {r:83,g:68,b:188,a:1.0}, {r:225,g:225,b:225,a:1.0})
+		},
+		onUnload() {
 		},
 		methods: {
 			chooseShapeColor() {
