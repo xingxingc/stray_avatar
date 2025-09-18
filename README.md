@@ -60,6 +60,7 @@ spring-boot实现的服务端（svg转png）
 4. [boringdesigners《 boring-avatars 》](https://github.com/boringdesigners/boring-avatars)：“简单微笑”里的方法参考了该项目
 5. [dmester《 jdenticon 》](https://github.com/dmester/jdenticon)：“字符图形”生成图片的方法基于该项目
 6. [copperdong《 faceGenerator 》](https://github.com/copperdong/faceGenerator)：“复古阿呆”生成图片的方法基于该项目
+7. [mugendi《 facitars 》](https://github.com/mugendi/facitars):“怪诞显眼包”生成图片的方法基于该项目
 
 **【开源声明】**  
 潦草头像馆小程序遵循 MIT 开源协议。
