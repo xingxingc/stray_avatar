@@ -27,6 +27,7 @@ spring-boot实现的服务端（svg转png）
 6. 字符图像：根据您输入的字符串，生成一张简单的独一无二的图形
 7. 复古阿呆：随机生成复古风格的简单卡通人物图像
 8. 怪诞显眼包：随机生成荒诞怪异的卡通表情
+9. 像素怪兽：随机生成仿似怪兽的像素表情
    
 <img src='./assets/random.jpg' alt='随机生成' width="320px" >
 
@@ -61,6 +62,7 @@ spring-boot实现的服务端（svg转png）
 5. [dmester《 jdenticon 》](https://github.com/dmester/jdenticon)：“字符图形”生成图片的方法基于该项目
 6. [copperdong《 faceGenerator 》](https://github.com/copperdong/faceGenerator)：“复古阿呆”生成图片的方法基于该项目
 7. [mugendi《 facitars 》](https://github.com/mugendi/facitars):“怪诞显眼包”生成图片的方法基于该项目
+8. [KevinGaudin 《 monsterid.js 》](https://github.com/KevinGaudin/monsterid.js):“像素怪兽”的方法基于该项目
 
 **【开源声明】**  
 潦草头像馆小程序遵循 MIT 开源协议。
