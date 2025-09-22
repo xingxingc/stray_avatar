@@ -413,7 +413,6 @@
 
 				this.site[1].left = this.hsb.h / 360 * b.width;
 				this.site[2].left = this.rgba.a * c.width;
-
 			},
 			/**
 			 * hsb 转 rgb

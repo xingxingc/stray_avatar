@@ -5,6 +5,10 @@
 				<image class="logo" src="/static/image/logo.png"></image>
 				<text class="title">潦草头像</text>
 				<text class="desc">潦草头像是一款随机生成用户头像的工具类应用</text>
+				<view class="tip" @click="tipAction">
+					<image src="/static/image/coffee.png" class="icon" mode="widthFix" />
+					<text>鼓励一杯咖啡</text>
+				</view>
 			</view>
 			<view class="thrid_part">
 				<view class="h">【开源声明】</view>
@@ -36,7 +40,9 @@
 </template>
 
 <script setup>
+	import { onLoad, onUnload } from '@dcloudio/uni-app'
 	import { kOpenSourceProjectList, kMyOpenSources } from '../../model/open_source_project'
+	import { showTextToast } from '../../util/util'
 	
 	function copy(link) {
 		uni.setClipboardData({
@@ -54,8 +60,10 @@
 				})
 			}
 		})
-		
 	}
+	
+	function tipAction() {}
+	
 </script>
 
 <style lang="scss">
@@ -78,7 +86,7 @@
 				border-radius: 10px;
 			}
 			.title {
-				margin: 15px 0 15px 0;
+				margin: 12px 0 12px 0;
 				font-size: 18px;
 				color: $app-color-black18;
 				font-weight: bold;
@@ -86,6 +94,23 @@
 			.desc {
 				font-size: 13px;
 				color: $app-color-grey77;
+			}
+			.tip {
+				margin-top: 12px;
+				padding: 6px 10px 6px 10px;
+				font-size: 10px;
+				display: flex;
+				flex-direction: row;
+				color: $app-color-black18;
+				align-items: center;
+				border-radius: 8px;
+				border-width: 0.5px;
+				border-color: $app-color-greyCE;
+				border-style: solid;
+				.icon {
+					margin-right: 5px;
+					width: 12px;
+				}
 			}
 		}
 		
@@ -126,7 +151,7 @@
 				}
 			}
 			.h {
-				margin-top: 25px;
+				margin-top: 20px;
 				color: $app-color-black18;
 				font-weight: bold;
 			}

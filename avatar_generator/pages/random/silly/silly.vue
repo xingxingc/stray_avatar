@@ -74,7 +74,6 @@
 	})
 	
 	onUnload(() => {
-		rewardedService.destory()
 	})
 </script>
 

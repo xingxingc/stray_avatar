@@ -23,7 +23,8 @@
 	import { checkPermissionAndSaveToPhotosAlbum, showTextToast } from '../../../util/util'
 	import { onLoad, onUnload } from '@dcloudio/uni-app'
 
-	const baseUrl = 'https://www.larvalabs.com/public/images/cryptopunks/'
+	// const baseUrl = 'https://www.larvalabs.com/public/images/cryptopunks/'
+	const baseUrl = 'https://avatar-gen.oss-cn-hangzhou.aliyuncs.com/image/punk/'
 	
 	var imagePath = ''
 	var downloadedImagePath = ''
@@ -169,6 +170,9 @@
 	
 	onLoad(() => {
 		generateFace()
+	})
+	
+	onUnload(() => {
 	})
 </script>
 

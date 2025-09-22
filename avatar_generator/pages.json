@@ -37,18 +37,13 @@
 			"path" : "pages/random/jdenticon/jdenticon"
 		},
 		{
-			"path" : "pages/random/silly/silly",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
+			"path" : "pages/random/silly/silly"
 		},
 		{
-			"path" : "pages/random/facitars/facitars",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
+			"path" : "pages/random/facitars/facitars"
+		},
+		{
+			"path" : "pages/random/pixel-monster/pixel-monster"
 		}
 	],
 	"tabBar": {

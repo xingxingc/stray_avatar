@@ -15,6 +15,7 @@
 	import { ref } from 'vue';
 	import { onLoad, onUnload } from '@dcloudio/uni-app'
 	
+	let rewardedService = null
 	let svgText = null
 	let token = null
 	let svgImagePath = ref('')

@@ -52,6 +52,11 @@
 			path: '/pages/random/boringbeam/boringbeam'
 		},
 		{
+			title: '像素怪兽',
+			icon: '/static/image/random/random_pixel_monster.png',
+			path: '/pages/random/pixel-monster/pixel-monster'
+		},
+		{
 			title: '字符图形',
 			icon: '/static/image/random/random_jdenticon.png',
 			path: '/pages/random/jdenticon/jdenticon'

@@ -29,6 +29,7 @@
 		name: "DuckGenerator",
 		data() {
 			return {
+				rewardedService: null,
 				token: null,
 				svgString: null,
 				svgImagePath: null,

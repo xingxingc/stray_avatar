@@ -23,13 +23,14 @@ export class MyOpenSouces {
 }
 
 export const kOpenSourceProjectList = [
-	new OpenSourceProject("ugly-avatar", "唐煊", "“丑头像”随机生成图片的方法基于该项目", "https://github.com/txstc55/ugly-avatar"),
-	new OpenSourceProject("duck-duck-duck", "唐煊", "“无聊鸭”随机生成图片的方法基于该项目", "https://github.com/txstc55/duck-duck-duck"),
+	new OpenSourceProject("ugly-avatar", "唐煊", "“丑头像”的方法基于该项目", "https://github.com/txstc55/ugly-avatar"),
+	new OpenSourceProject("duck-duck-duck", "唐煊", "“无聊鸭”的方法基于该项目", "https://github.com/txstc55/duck-duck-duck"),
 	new OpenSourceProject("pixelpunks", "sweeterio", "“朋克像素”里使用的资源参考了该项目", "https://github.com/sweeterio/pixelpunks"),
 	new OpenSourceProject("boring-avatars", "boringdesigners", "“简单微笑”里的方法参考了该项目", "https://github.com/boringdesigners/boring-avatars"),
-	new OpenSourceProject("jdenticon", "dmester", "“字符图形”生成图片的方法基于该项目", "https://github.com/dmester/jdenticon"),
-	new OpenSourceProject("faceGenerator", "copperdong", "“复古阿呆”生成图片的方法基于该项目", "https://github.com/copperdong/faceGenerator"),
-	new OpenSourceProject("facitars", "mugendi", "“怪诞显眼包”生成图片的方法基于该项目", "https://github.com/mugendi/facitars"),
+	new OpenSourceProject("jdenticon", "dmester", "“字符图形”的方法基于该项目", "https://github.com/dmester/jdenticon"),
+	new OpenSourceProject("faceGenerator", "copperdong", "“复古阿呆”的方法基于该项目", "https://github.com/copperdong/faceGenerator"),
+	new OpenSourceProject("facitars", "mugendi", "“怪诞显眼包”的方法基于该项目", "https://github.com/mugendi/facitars"),
+	new OpenSourceProject("monsterid.js", "KevinGaudin", "“像素怪兽”的方法基于该项目", "https://github.com/KevinGaudin/monsterid.js"),
 ]
 
 export const kMyOpenSources = [

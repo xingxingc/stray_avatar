@@ -29,6 +29,7 @@
 		name: "UglyFace",
 		data() {
 			return {
+				rewardedService: null,
 				svgImagePath: null,
 				svgString: null,
 				token: null,

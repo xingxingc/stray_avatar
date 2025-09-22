@@ -233,9 +233,13 @@
 		}
 		uni.hideLoading()
 	}
+
 	
 	onLoad(() => {
 		generateData()
+	})
+	
+	onUnload(() => {
 	})
 </script>
 
