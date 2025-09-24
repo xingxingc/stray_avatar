@@ -33,6 +33,7 @@
 	import * as jdenticon from 'jdenticon'
 	import { ref } from 'vue';
 	import { onLoad, onUnload } from '@dcloudio/uni-app'
+	import { AppModel } from '../../../model/app_model';
 
 	let rewardedService = null
 	let lastGenText = null
@@ -43,25 +44,9 @@
 	const avatar = ref('')
 	const bgColor = ref({r: 255,g: 255,b: 255,a: 1.0})
 	const bgColorPicker = ref(null)
-	const randomSeeds = [
-		'微笑向阳', '天生赢家', 'Dwyane Wade',
-		'微笑天使', '独步芳华', 'Kobe Bryant',
-		'我可真棒', '无敌存在', 'Allen Iverson',
-		'星河有你', '独领风骚', 'Dirk Nowitzki',
-		'元气满格', '超凡入圣', 'Manu Ginóbili',
-		'笑眼弯弯', '万人迷', 'Michael Jordan',
-		'星光未眠', '风华绝代', 'Michael Jackson',
-		'清茶煮雨', '独步天下', '球球',
-		'心有桃花', '魅力无限', '琳琳',
-		'暖阳小鹿', '美艳无双', '若曦',
-	]
 	
 	onLoad(() => {
 		randomInput()
-	}) 
-	
-	onUnload(() => {
-		rewardedService.destory()
 	})
 
 	function chooseBgColor() {
@@ -74,7 +59,7 @@
 	}
 	
 	function randomInput() {
-		inputText.value = randomSeeds[Math.floor(Math.random() * randomSeeds.length)]
+		inputText.value = AppModel.randomNames[Math.floor(Math.random() * AppModel.randomNames.length)]
 		generateAvatar()
 	}
 	

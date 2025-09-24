@@ -175,10 +175,8 @@
 			
 			setTimeout(() => {
 				generateFace()
-			}, 500)
+			}, 380)
 		  });
-	})
-	onUnload(() => {
 	})
 </script>
 

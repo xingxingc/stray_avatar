@@ -53,7 +53,6 @@
 		// 转换为长度为4的字符串，不足4位在前面补0
 		const name = `punk${randomNum.toString().padStart(4, '0')}.png`
 		imagePath = baseUrl + name
-		console.log(`>>> imagePath: ${imagePath}`)
 		uni.downloadFile({
 			url: imagePath,
 			success: async res => {
@@ -169,9 +168,6 @@
 	
 	onLoad(() => {
 		generateFace()
-	})
-	
-	onUnload(() => {
 	})
 </script>
 

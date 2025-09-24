@@ -62,6 +62,16 @@
 			path: '/pages/random/jdenticon/jdenticon'
 		},
 		{
+			title: '幽菌怪',
+			icon: '/static/image/random/random_monsterid.png',
+			path: '/subpackages/random_monsterid/monsterid'
+		},
+		{
+			title: '旋叶',
+			icon: '/static/image/random/random_solacon.png',
+			path: '/pages/random/solacon/solacon'
+		},
+		{
 			title: '复古阿呆',
 			icon: '/static/image/random/random_silly.png',
 			path: '/pages/random/silly/silly'

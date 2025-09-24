@@ -62,7 +62,16 @@
 		})
 	}
 	
-	function tipAction() {}
+	function tipAction() {
+		rewardedService.showAd(res => {
+			console.debug('give me a coffee', res)
+			if (res.isEnded) {
+				setTimeout(() => {
+					showTextToast('感谢您的鼓励～')
+				}, 280)
+			}
+		})
+	}
 	
 </script>
 

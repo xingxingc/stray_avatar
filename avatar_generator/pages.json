@@ -44,6 +44,23 @@
 		},
 		{
 			"path" : "pages/random/pixel-monster/pixel-monster"
+		},
+		{
+			"path" : "pages/random/solacon/solacon",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "subpackages/random_monsterid",
+			"pages": [
+				{
+					"path": "monsterid"
+				}
+			]
 		}
 	],
 	"tabBar": {

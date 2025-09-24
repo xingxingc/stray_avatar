@@ -579,8 +579,6 @@
 		},
 		onLoad() {
 			this.generateFace();
-		},
-		onUnload() {
 		}
 	};
 </script>

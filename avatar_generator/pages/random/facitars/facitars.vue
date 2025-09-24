@@ -88,9 +88,6 @@
 	
 	onLoad(() => {
 		generateAvatar()
-	}) 
-	
-	onUnload(() => {
 	})
 </script>
 
