@@ -32,6 +32,11 @@
 			path: '/pages/random/duck/duck'
 		},
 		{
+			title: '卡哇伊',
+			icon: '/static/image/random/random_kawaii.png',
+			path: '/subpackages/sub_1/pages/kawaii/kawaii'
+		},
+		{
 			title: '丑头像',
 			icon: '/static/image/random/random_ugly.png',
 			path: '/pages/random/ugly/ugly'
@@ -64,7 +69,7 @@
 		{
 			title: '幽菌怪',
 			icon: '/static/image/random/random_monsterid.png',
-			path: '/subpackages/random_monsterid/monsterid'
+			path: '/subpackages/sub_1/pages/random_monsterid/monsterid'
 		},
 		{
 			title: '旋叶',

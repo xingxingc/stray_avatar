@@ -46,19 +46,18 @@
 			"path" : "pages/random/pixel-monster/pixel-monster"
 		},
 		{
-			"path" : "pages/random/solacon/solacon",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
+			"path" : "pages/random/solacon/solacon"
 		}
 	],
 	"subPackages": [
 		{
-			"root": "subpackages/random_monsterid",
+			"root": "subpackages/sub_1",
 			"pages": [
 				{
-					"path": "monsterid"
+					"path": "pages/random_monsterid/monsterid"
+				},
+				{
+					"path" : "pages/kawaii/kawaii"
 				}
 			]
 		}

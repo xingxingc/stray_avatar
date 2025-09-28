@@ -33,6 +33,7 @@ export const kOpenSourceProjectList = [
 	new OpenSourceProject("monsterid.js", "KevinGaudin", "“像素怪兽”的方法基于该项目", "https://github.com/KevinGaudin/monsterid.js"),
 	new OpenSourceProject("monsterid", "arokettu", "“幽菌怪”的方法基于该项目", "https://github.com/arokettu/monsterid"),
 	new OpenSourceProject("solacon", "naknomum", "“旋叶”的方法效仿于该项目", "https://github.com/naknomum/solacon"),
+	new OpenSourceProject("react-kawaii", "elizabetdev", "“卡哇伊”的方法效仿于该项目", "https://github.com/elizabetdev"),
 ]
 
 export const kMyOpenSources = [

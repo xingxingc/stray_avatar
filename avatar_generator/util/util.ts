@@ -41,7 +41,16 @@ function doSaveImage(filePath) {
       fail: (err) => {
         console.error('保存失败', err);
         wx.showToast({ title: '保存失败', icon: 'none' });
-      }
+      },
+	  complete: (_) => {
+		  try {
+			const fs = wx.getFileSystemManager();
+			fs.unlinkSync(filePath)
+		  	console.debug(`删除png文件：${filePath}`)
+		  } catch (e) {
+		  	console.error(`删除png文件报错`, e)
+		  }
+	  }
     });
 }
 

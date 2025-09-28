@@ -72,7 +72,6 @@
 			}
 		})
 	}
-	
 </script>
 
 <style lang="scss">

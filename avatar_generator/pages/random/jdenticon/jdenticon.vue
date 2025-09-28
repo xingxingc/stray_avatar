@@ -47,6 +47,10 @@
 	
 	onLoad(() => {
 		randomInput()
+	}) 
+	
+	onUnload(() => {
+		rewardedService.destory()
 	})
 
 	function chooseBgColor() {
