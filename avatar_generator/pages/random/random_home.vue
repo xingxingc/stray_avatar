@@ -42,6 +42,11 @@
 			path: '/pages/random/ugly/ugly'
 		},
 		{
+			title: '憨憨犬',
+			icon: '/static/image/random/random_dog.png',
+			path: '/subpackages/sub_1/pages/cute_dog/cute_dog'
+		},
+		{
 			title: '朋克像素',
 			icon: '/static/image/random/randm_punks.png',
 			path: '/pages/random/cryptopunks/cryptopunks'

@@ -146,9 +146,9 @@ export function delay(ms) :Promise<void> {
 }
 
 /// 显示不带图标的文字提示
-export function showTextToast(text :string) {
+export function showTextToast(text :string, icon :"none" | "success" | "loading" | "error" | "fail" | "exception" = 'none') {
 	uni.showToast({
 		title: text,
-		icon: 'none'
+		icon: icon
 	})
 }

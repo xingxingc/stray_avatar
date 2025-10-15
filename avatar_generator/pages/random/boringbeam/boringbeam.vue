@@ -233,7 +233,7 @@
 		}
 		uni.hideLoading()
 	}
-	
+
 	onLoad(() => {
 		generateData()
 	})

@@ -58,6 +58,9 @@
 				},
 				{
 					"path" : "pages/kawaii/kawaii"
+				},
+				{
+					"path" : "pages/cute_dog/cute_dog"
 				}
 			]
 		}

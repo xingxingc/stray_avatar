@@ -72,6 +72,10 @@
 			}, 380)
 		  });
 	})
+	
+	onUnload(() => {
+		rewardedService.destory()
+	})
 </script>
 
 <style lang="scss" scoped>

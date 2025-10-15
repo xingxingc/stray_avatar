@@ -579,7 +579,7 @@
 		},
 		onLoad() {
 			this.generateFace();
-		}
+		},
 	};
 </script>
 
