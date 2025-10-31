@@ -32,6 +32,11 @@
 			path: '/pages/random/duck/duck'
 		},
 		{
+			title: '憨憨犬',
+			icon: '/static/image/random/random_dog.png',
+			path: '/subpackages/sub_1/pages/cute_dog/cute_dog'
+		},
+		{
 			title: '卡哇伊',
 			icon: '/static/image/random/random_kawaii.png',
 			path: '/subpackages/sub_1/pages/kawaii/kawaii'
@@ -42,9 +47,9 @@
 			path: '/pages/random/ugly/ugly'
 		},
 		{
-			title: '憨憨犬',
-			icon: '/static/image/random/random_dog.png',
-			path: '/subpackages/sub_1/pages/cute_dog/cute_dog'
+			title: '小狗涂鸦',
+			icon: '/static/image/random/random_draw_puppy.png',
+			path: '/subpackages/sub_1/pages/draw_puppy/draw_puppy'
 		},
 		{
 			title: '朋克像素',

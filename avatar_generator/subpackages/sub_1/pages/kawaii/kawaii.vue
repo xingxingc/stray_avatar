@@ -84,6 +84,9 @@
 		generateAvatar()
 	})
 	
+	onUnload(() => {
+	})
+	
 	function chooseShapeColor() {
 		shapeColorPicker.value.open()
 	}

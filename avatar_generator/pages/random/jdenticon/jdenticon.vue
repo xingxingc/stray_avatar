@@ -50,7 +50,6 @@
 	}) 
 	
 	onUnload(() => {
-		rewardedService.destory()
 	})
 
 	function chooseBgColor() {
