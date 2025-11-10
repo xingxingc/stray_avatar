@@ -179,6 +179,7 @@
 		  });
 	})
 	onUnload(() => {
+		rewardedService.destory()
 	})
 </script>
 

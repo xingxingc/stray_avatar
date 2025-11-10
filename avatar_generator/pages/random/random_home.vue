@@ -37,6 +37,11 @@
 			path: '/subpackages/sub_1/pages/cute_dog/cute_dog'
 		},
 		{
+			title: '萌眼小团',
+			icon: '/static/image/random/random_blobby.png',
+			path: '/subpackages/sub_1/pages/blobby/blobby'
+		},
+		{
 			title: '卡哇伊',
 			icon: '/static/image/random/random_kawaii.png',
 			path: '/subpackages/sub_1/pages/kawaii/kawaii'

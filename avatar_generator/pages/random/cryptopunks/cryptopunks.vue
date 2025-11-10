@@ -164,7 +164,7 @@
 			}
 		})
 	}
-	
+
 	onLoad(() => {
 		generateFace()
 	})

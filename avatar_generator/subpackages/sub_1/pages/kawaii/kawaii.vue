@@ -85,6 +85,7 @@
 	})
 	
 	onUnload(() => {
+		rewardedService.destory()
 	})
 	
 	function chooseShapeColor() {

@@ -222,9 +222,6 @@
 		}, 100)
 	})
 	
-	onUnload(() => {
-	})
-	
 </script>
 
 <style lang="scss" scoped>

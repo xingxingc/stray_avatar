@@ -64,6 +64,9 @@
 				},
 				{
 					"path" : "pages/draw_puppy/draw_puppy"
+				},
+				{
+					"path" : "pages/blobby/blobby"
 				}
 			]
 		}
