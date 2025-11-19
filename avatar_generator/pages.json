@@ -67,6 +67,9 @@
 				},
 				{
 					"path" : "pages/blobby/blobby"
+				},
+				{
+					"path": "pages/shape_stack/shape_stack"
 				}
 			]
 		}

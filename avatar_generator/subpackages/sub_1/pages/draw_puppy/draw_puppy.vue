@@ -311,7 +311,8 @@
 					    	  success: res3 => {
 					    		imgPath.value = res3.tempFilePath
 					    	  },
-							  complete: _ => {}
+							  complete: _ => {
+							  }
 					    	})
 					      }
 					    })
@@ -346,6 +347,9 @@
 				randomAvatar()
 			}
 		}, 100)
+	})
+	
+	onUnload(() => {
 	})
 	
 </script>

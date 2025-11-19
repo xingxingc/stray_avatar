@@ -164,9 +164,12 @@
 			}
 		})
 	}
-
+	
 	onLoad(() => {
 		generateFace()
+	})
+	
+	onUnload(() => {
 	})
 </script>
 

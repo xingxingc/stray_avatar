@@ -27,14 +27,24 @@
 	
 	const data = [
 		{
+			title: '憨憨犬',
+			icon: '/static/image/random/random_dog.png',
+			path: '/subpackages/sub_1/pages/cute_dog/cute_dog'
+		},
+		{
 			title: '无聊鸭',
 			icon: '/static/image/random/random_duck.png',
 			path: '/pages/random/duck/duck'
 		},
 		{
-			title: '憨憨犬',
-			icon: '/static/image/random/random_dog.png',
-			path: '/subpackages/sub_1/pages/cute_dog/cute_dog'
+			title: '丑头像',
+			icon: '/static/image/random/random_ugly.png',
+			path: '/pages/random/ugly/ugly'
+		},
+		{
+			title: '几何堆叠',
+			icon: '/static/image/random/random_shape_stack.png',
+			path: '/subpackages/sub_1/pages/shape_stack/shape_stack'
 		},
 		{
 			title: '萌眼小团',
@@ -47,14 +57,14 @@
 			path: '/subpackages/sub_1/pages/kawaii/kawaii'
 		},
 		{
-			title: '丑头像',
-			icon: '/static/image/random/random_ugly.png',
-			path: '/pages/random/ugly/ugly'
+			title: '几何堆叠',
+			icon: '/static/image/random/random_jdenticon.png',
+			path: '/subpackages/sub_1/pages/shape_stack/shape_stack'
 		},
 		{
-			title: '小狗涂鸦',
-			icon: '/static/image/random/random_draw_puppy.png',
-			path: '/subpackages/sub_1/pages/draw_puppy/draw_puppy'
+			title: '萌眼小团',
+			icon: '/static/image/random/random_blobby.png',
+			path: '/subpackages/sub_1/pages/blobby/blobby'
 		},
 		{
 			title: '朋克像素',

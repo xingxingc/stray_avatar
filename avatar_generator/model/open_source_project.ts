@@ -23,6 +23,7 @@ export class MyOpenSouces {
 }
 
 export const kOpenSourceProjectList = [
+	new OpenSourceProject("randomAvatar", "thisago", "“几何堆叠”效仿于该项目", "https://github.com/thisago/randomAvatar"),
 	new OpenSourceProject("Blobby", "enjeck", "“萌眼小团”的方法基于该项目", "https://github.com/enjeck/Blobby"),
 	new OpenSourceProject("DoggoFace", "ingriddraagen", "“小狗涂鸦”的方法基于该项目", "https://github.com/ingriddraagen/DoggoFace"),
 	new OpenSourceProject("ugly-avatar", "唐煊", "“丑头像”的方法基于该项目", "https://github.com/txstc55/ugly-avatar"),

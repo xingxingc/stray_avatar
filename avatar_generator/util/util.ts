@@ -56,9 +56,9 @@ function doSaveImage(filePath) {
 
 /// 随机生成token
 export function randomToken() {
-	const A = randomString(10);
-	const B = randomString(9);
-	const C = randomString(8);
+	const A = randomString(20);
+	const B = randomString(18);
+	const C = randomString(16);
 	return `==${A}.${B}.${C}`;
 }
 export function randomString(len) {

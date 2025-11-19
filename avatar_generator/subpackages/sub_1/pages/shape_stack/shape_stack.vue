@@ -14,7 +14,7 @@
 <script lang='ts' setup>
 	import { onMounted, onUnmounted, ref } from 'vue';
 	import { checkPermissionAndSaveToPhotosAlbum, postSvgToPng, randomToken, savePngToFile, showTextToast } from '../../../../util/util';
-	import { generateCharacter } from './character.js'
+	import { getAvatarByName } from './shape_stack.js'
 	import { onLoad, onUnload } from '@dcloudio/uni-app'
 
 	const svgImagePath = ref('')
@@ -22,18 +22,18 @@
 	let token = null
 
 	function generateData() {
-		svgString = generateCharacter()
+		svgString = getAvatarByName()
 
 		const fs = wx.getFileSystemManager();
 		const timestamp = new Date().getTime();
-		const filePath = `${wx.env.USER_DATA_PATH}/by${timestamp}.svg`;
-		const kLastBoringImgPathKey = "last_blobby_path"
+		const filePath = `${wx.env.USER_DATA_PATH}/ss${timestamp}.svg`;
+		const kLastBoringImgPathKey = "last_ss_path"
 
 		let lastPath = uni.getStorageSync(kLastBoringImgPathKey)
 		if (lastPath != null && lastPath != undefined && lastPath.length > 0) {
 			try {
 				fs.unlinkSync(lastPath)
-				console.debug('删除上一次生成的blobby文件')
+				console.debug('删除上一次生成的shape_stack文件')
 			} catch (e) {
 				console.error(`文件不存在：${lastPath}`)
 			}
@@ -86,9 +86,6 @@
 	
 	onLoad(() => {
 		generateData()
-	})
-	
-	onUnload(() => {
 	})
 </script>
 
