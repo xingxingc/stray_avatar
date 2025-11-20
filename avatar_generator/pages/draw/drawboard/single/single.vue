@@ -4,7 +4,7 @@
 			<view class="content-part">
 				<view class="other-box">
 					<!-- 网格数选择 -->
-					<view class="picker-group">
+					<view class="picker-group arrow">
 						<picker mode="selector" :range="gridSizeOptions" :value="gridSizeIndex" @change="onGridSizeChange"
 							class="picker">
 							<text class="title">网格:</text>
@@ -184,6 +184,20 @@
 						height: 20px;
 						border-radius: 10px;
 						border: 1px solid $app-color-line;
+					}
+				}
+				.arrow {
+					&::after {
+						content: "";
+						display: inline-block;
+						width: 0;
+						height: 0;
+						margin-left: 3px;            /* 三角与文本间距 */
+						vertical-align: middle;      /* 与文本垂直对齐 */
+						border-left: 3px solid transparent;
+						border-right: 3px solid transparent;
+						border-top: 3px solid $app-color-black18;  /* 三角颜色（向下） */
+						pointer-events: none;        /* 不影响点击 */
 					}
 				}
 			}

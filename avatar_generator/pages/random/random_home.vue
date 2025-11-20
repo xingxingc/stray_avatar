@@ -37,9 +37,9 @@
 			path: '/pages/random/duck/duck'
 		},
 		{
-			title: '丑头像',
-			icon: '/static/image/random/random_ugly.png',
-			path: '/pages/random/ugly/ugly'
+			title: '萌眼小团',
+			icon: '/static/image/random/random_blobby.png',
+			path: '/subpackages/sub_1/pages/blobby/blobby'
 		},
 		{
 			title: '几何堆叠',
@@ -47,24 +47,19 @@
 			path: '/subpackages/sub_1/pages/shape_stack/shape_stack'
 		},
 		{
-			title: '萌眼小团',
-			icon: '/static/image/random/random_blobby.png',
-			path: '/subpackages/sub_1/pages/blobby/blobby'
-		},
-		{
 			title: '卡哇伊',
 			icon: '/static/image/random/random_kawaii.png',
 			path: '/subpackages/sub_1/pages/kawaii/kawaii'
 		},
 		{
-			title: '几何堆叠',
-			icon: '/static/image/random/random_jdenticon.png',
-			path: '/subpackages/sub_1/pages/shape_stack/shape_stack'
+			title: '丑头像',
+			icon: '/static/image/random/random_ugly.png',
+			path: '/pages/random/ugly/ugly'
 		},
 		{
-			title: '萌眼小团',
-			icon: '/static/image/random/random_blobby.png',
-			path: '/subpackages/sub_1/pages/blobby/blobby'
+			title: '小狗涂鸦',
+			icon: '/static/image/random/random_draw_puppy.png',
+			path: '/subpackages/sub_1/pages/draw_puppy/draw_puppy'
 		},
 		{
 			title: '朋克像素',
