@@ -22,28 +22,10 @@
 			"path" : "pages/random/boringbeam/boringbeam"
 		},
 		{
-			"path" : "pages/random/hash/hash"
-		},
-		{
-			"path" : "pages/draw/drawboard/single/single"
-		},
-		{
-			"path" : "pages/draw/drawboard/double/type"
-		},
-		{
-			"path" : "pages/draw/drawboard/double/room"
-		},
-		{
 			"path" : "pages/random/jdenticon/jdenticon"
 		},
 		{
-			"path" : "pages/random/silly/silly"
-		},
-		{
 			"path" : "pages/random/facitars/facitars"
-		},
-		{
-			"path" : "pages/random/pixel-monster/pixel-monster"
 		},
 		{
 			"path" : "pages/random/solacon/solacon"
@@ -51,10 +33,30 @@
 	],
 	"subPackages": [
 		{
-			"root": "subpackages/sub_1",
+			"root": "subpackages/sub_draw",
 			"pages": [
 				{
-					"path": "pages/random_monsterid/monsterid"
+					"path" : "pages/drawboard/single/single"
+				},
+				{
+					"path" : "pages/drawboard/double/type"
+				},
+				{
+					"path" : "pages/drawboard/double/room"
+				}
+			]
+		},
+		{
+			"root": "subpackages/sub_random",
+			"pages": [
+				{
+					"path" : "pages/hash/hash"
+				},
+				{
+					"path" : "pages/silly/silly"
+				},
+				{
+					"path": "pages/monsterid/monsterid"
 				},
 				{
 					"path" : "pages/kawaii/kawaii"
@@ -70,6 +72,9 @@
 				},
 				{
 					"path": "pages/shape_stack/shape_stack"
+				},
+				{
+					"path" : "pages/pixel-monster/pixel-monster"
 				}
 			]
 		}

@@ -15,13 +15,13 @@
 	
 	function singlePage() {
 		uni.navigateTo({
-			url: '/pages/draw/drawboard/single/single'
+			url: '/subpackages/sub_draw/pages/drawboard/single/single'
 		})
 	}
 	
 	function doublePage() {
 		uni.navigateTo({
-			url: '/pages/draw/drawboard/double/type'
+			url: '/subpackages/sub_draw/pages/drawboard/double/type'
 		})
 	}
 	

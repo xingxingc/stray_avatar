@@ -233,6 +233,8 @@
 		}
 		uni.hideLoading()
 	}
+
+	let rewardedService = null
 	
 	onLoad(() => {
 		generateData()

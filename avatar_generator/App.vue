@@ -1,7 +1,4 @@
 <script>
-	import { BleCentralManager } from './model/bluetooth/central/ble_central_manager'
-	import { BlePeripheralManager } from './model/bluetooth/peripheral/ble_peripheral_manager'
-
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
@@ -13,8 +10,7 @@
 			console.log('App Hide')
 		},
 		onUnload: function() {
-			BleCentralManager.dispose()
-			BlePeripheralManager.dispose()
+			console.log('App Unload')
 		}
 	}
 </script>

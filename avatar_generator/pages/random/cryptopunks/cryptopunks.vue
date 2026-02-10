@@ -165,6 +165,8 @@
 		})
 	}
 	
+	let rewardedService = null
+	
 	onLoad(() => {
 		generateFace()
 	})

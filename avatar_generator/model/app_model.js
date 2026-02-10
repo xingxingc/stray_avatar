@@ -1,6 +1,6 @@
 export const AppModel = {
 	// svg转png的API
-	svgToPngApi: 'https://[你自己的域名]/avatar-generator/api/svg/toPng',
+	svgToPngApi: 'https://你自己的域名/avatar-generator/api/svg/toPng',
 	// cute_doy图片资源
 	cuteDogImagesUrl: 'https://github.com/xingxingc/stray_avatar/tree/main/assets/cute_dog.zip',
 	// cryptopunks图片地址

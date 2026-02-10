@@ -60,7 +60,10 @@
             "scope.writePhotosAlbum" : {
                 "desc" : "需要保存图片到相册"
             }
-        }
+        },
+		"optimization": {
+		    "subPackages": true
+		}
     },
     "mp-alipay" : {
         "usingComponents" : true

@@ -29,7 +29,7 @@
 		{
 			title: '憨憨犬',
 			icon: '/static/image/random/random_dog.png',
-			path: '/subpackages/sub_1/pages/cute_dog/cute_dog'
+			path: '/subpackages/sub_random/pages/cute_dog/cute_dog'
 		},
 		{
 			title: '无聊鸭',
@@ -39,17 +39,17 @@
 		{
 			title: '萌眼小团',
 			icon: '/static/image/random/random_blobby.png',
-			path: '/subpackages/sub_1/pages/blobby/blobby'
+			path: '/subpackages/sub_random/pages/blobby/blobby'
 		},
 		{
 			title: '几何堆叠',
 			icon: '/static/image/random/random_shape_stack.png',
-			path: '/subpackages/sub_1/pages/shape_stack/shape_stack'
+			path: '/subpackages/sub_random/pages/shape_stack/shape_stack'
 		},
 		{
 			title: '卡哇伊',
 			icon: '/static/image/random/random_kawaii.png',
-			path: '/subpackages/sub_1/pages/kawaii/kawaii'
+			path: '/subpackages/sub_random/pages/kawaii/kawaii'
 		},
 		{
 			title: '丑头像',
@@ -59,7 +59,7 @@
 		{
 			title: '小狗涂鸦',
 			icon: '/static/image/random/random_draw_puppy.png',
-			path: '/subpackages/sub_1/pages/draw_puppy/draw_puppy'
+			path: '/subpackages/sub_random/pages/draw_puppy/draw_puppy'
 		},
 		{
 			title: '朋克像素',
@@ -79,7 +79,7 @@
 		{
 			title: '像素怪兽',
 			icon: '/static/image/random/random_pixel_monster.png',
-			path: '/pages/random/pixel-monster/pixel-monster'
+			path: '/subpackages/sub_random/pages/pixel-monster/pixel-monster'
 		},
 		{
 			title: '字符图形',
@@ -89,7 +89,7 @@
 		{
 			title: '幽菌怪',
 			icon: '/static/image/random/random_monsterid.png',
-			path: '/subpackages/sub_1/pages/random_monsterid/monsterid'
+			path: '/subpackages/sub_random/pages/monsterid/monsterid'
 		},
 		{
 			title: '旋叶',
@@ -99,12 +99,12 @@
 		{
 			title: '复古阿呆',
 			icon: '/static/image/random/random_silly.png',
-			path: '/pages/random/silly/silly'
+			path: '/subpackages/sub_random/pages/silly/silly'
 		},
 		{
 			title: '哈希对称',
 			icon: '/static/image/random/random_hash.png',
-			path: '/pages/random/hash/hash'
+			path: '/subpackages/sub_random/pages/hash/hash'
 		},
 	]
 	
