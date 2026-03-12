@@ -85,6 +85,9 @@ spring-boot实现的服务端（svg转png）
 2. 客群采集：基于地理位置的商户信息采集工具    
 <img src="./assets/qrcode_kqcj.jpg" width="160px" />
 
+3. 看图识梗：看图片猜词语的趣味小程序    
+<img src="./assets/qrcode_ktsg.jpg" width="160px" />
+
 ## ☕️ 赏杯咖啡吧～
 <img src="./assets/buy_me_coffee.png" width="160px" />
 
