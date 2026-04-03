@@ -32,29 +32,14 @@
 			path: '/subpackages/sub_random/pages/cute_dog/cute_dog'
 		},
 		{
-			title: '无聊鸭',
-			icon: '/static/image/random/random_duck.png',
-			path: '/pages/random/duck/duck'
-		},
-		{
-			title: '萌眼小团',
-			icon: '/static/image/random/random_blobby.png',
-			path: '/subpackages/sub_random/pages/blobby/blobby'
-		},
-		{
-			title: '几何堆叠',
-			icon: '/static/image/random/random_shape_stack.png',
-			path: '/subpackages/sub_random/pages/shape_stack/shape_stack'
-		},
-		{
-			title: '卡哇伊',
-			icon: '/static/image/random/random_kawaii.png',
-			path: '/subpackages/sub_random/pages/kawaii/kawaii'
-		},
-		{
 			title: '丑头像',
 			icon: '/static/image/random/random_ugly.png',
 			path: '/pages/random/ugly/ugly'
+		},
+		{
+			title: '朋克像素',
+			icon: '/static/image/random/randm_punks.png',
+			path: '/pages/random/cryptopunks/cryptopunks'
 		},
 		{
 			title: '小狗涂鸦',
@@ -62,9 +47,29 @@
 			path: '/subpackages/sub_random/pages/draw_puppy/draw_puppy'
 		},
 		{
-			title: '朋克像素',
-			icon: '/static/image/random/randm_punks.png',
-			path: '/pages/random/cryptopunks/cryptopunks'
+			title: 'Gopher',
+			icon: '/static/image/random/random_gopher.png',
+			path: '/subpackages/sub_random/pages/gopher/gopher'
+		},
+		{
+			title: '无聊鸭',
+			icon: '/static/image/random/random_duck.png',
+			path: '/pages/random/duck/duck'
+		},
+		{
+			title: '卡哇伊',
+			icon: '/static/image/random/random_kawaii.png',
+			path: '/subpackages/sub_random/pages/kawaii/kawaii'
+		},
+		{
+			title: '几何堆叠',
+			icon: '/static/image/random/random_shape_stack.png',
+			path: '/subpackages/sub_random/pages/shape_stack/shape_stack'
+		},
+		{
+			title: '萌眼小团',
+			icon: '/static/image/random/random_blobby.png',
+			path: '/subpackages/sub_random/pages/blobby/blobby'
 		},
 		{
 			title: '怪诞显眼包',

@@ -239,9 +239,6 @@
 	onLoad(() => {
 		generateData()
 	})
-	
-	onUnload(() => {
-	})
 </script>
 
 <style lang="scss">

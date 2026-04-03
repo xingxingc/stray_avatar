@@ -6,9 +6,11 @@
 				<text class="title">潦草头像</text>
 				<text class="desc">潦草头像是一款随机生成用户头像的工具类应用</text>
 				<view class="tip" @click="tipAction">
-					<image src="/static/image/coffee.png" class="icon" mode="widthFix" />
-					<text>鼓励一杯咖啡</text>
+					<text>来杯咖啡吧~</text>
 				</view>
+			</view>
+			<view v-if="coffeeCount > 0" class="coffee-bar">
+				<image v-for="_ in coffeeCount" class="coffee" src="/static/image/coffee.png"/>
 			</view>
 			<view class="thrid_part">
 				<view class="h">【开源声明】</view>
@@ -39,10 +41,16 @@
 	</common-page>
 </template>
 
-<script setup>
+<script setup lang="ts">
 	import { onLoad, onUnload } from '@dcloudio/uni-app'
 	import { kOpenSourceProjectList, kMyOpenSources } from '../../model/open_source_project'
-	import { showTextToast } from '../../util/util'
+	import { showTextToast, dateToString, delay } from '../../util/util'
+	import { ref } from 'vue'
+	import { StorageManager } from '../../model/storage_manager'
+	
+	/// 键值-今日咖啡数
+	const kTodayCoffeeKey = 'sk_today_coffee'
+	const coffeeCount = ref(StorageManager.coffeeCount)
 	
 	function copy(link) {
 		uni.setClipboardData({
@@ -63,14 +71,19 @@
 	}
 	
 	function tipAction() {
-		rewardedService.showAd(res => {
-			console.debug('give me a coffee', res)
-			if (res.isEnded) {
-				setTimeout(() => {
-					showTextToast('感谢您的鼓励～')
-				}, 280)
-			}
-		})
+		setTimeout(async () => {
+			uni.hideLoading()
+			await delay(200)
+			await uni.showModal({
+				title: '奖励☕️+1，能量满满😊',
+				content: '☕️ 可免广告保存图片',
+				showCancel: false,
+				confirmText: '收起能量',
+				confirmColor: '#181818'
+			})
+			coffeeCount.value += 1
+			StorageManager.coffeeCount = coffeeCount.value
+		}, 800)
 	}
 </script>
 
@@ -118,10 +131,26 @@
 				.icon {
 					margin-right: 5px;
 					width: 12px;
+					height: 11px;
 				}
 			}
 		}
-		
+		.coffee-bar {
+			width: 100vw;
+			height: 20px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			margin-top: 15px;
+			.coffee {
+				width: 14px;
+				height: 13px;
+				&:not(:first-child) {
+					margin-left: 5px;
+				}
+			}
+		}
 		.thrid_part {
 			width: 100%;
 			display: flex;

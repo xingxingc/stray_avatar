@@ -89,9 +89,6 @@
 	onLoad(() => {
 		generateAvatar()
 	}) 
-	
-	onUnload(() => {
-	})
 </script>
 
 <style scoped lang="scss">

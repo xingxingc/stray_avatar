@@ -1,12 +1,14 @@
 export const AppModel = {
 	// svg转png的API
-	svgToPngApi: 'https://你自己的域名/avatar-generator/api/svg/toPng',
+	svgToPngApi: 'https://[你自己的服务器域名]/avatar-generator/api/svg/toPng',
+	// gopher图片资源
+	gopherImagesUrl: 'https://raw.githubusercontent.com/xingxingc/stray_avatar/main/assets/gopher.zip',
 	// cute_doy图片资源
-	cuteDogImagesUrl: 'https://github.com/xingxingc/stray_avatar/tree/main/assets/cute_dog.zip',
+	cuteDogImagesUrl: 'https://raw.githubusercontent.com/xingxingc/stray_avatar/main/assets/cute_dog.zip',
 	// cryptopunks图片地址
 	cryptopunksBaseUrl: 'https://www.larvalabs.com/public/images/cryptopunks/',
 	// draw_puppy图片资源
-	drawPuppyBaseUrl: 'https://github.com/xingxingc/stray_avatar/tree/main/assets/draw_puppy.zip',
+	drawPuppyBaseUrl: 'https://raw.githubusercontent.com/xingxingc/stray_avatar/main/assets/draw_puppy.zip',
 	// 上一次生成png图片的时间
 	lastGenPngTime: null,
 	// 创建一起画画板的参数
